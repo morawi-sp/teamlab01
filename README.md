@@ -56,3 +56,4 @@ mkdir argo-cd
 wget https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 mv install.yaml install-argo-cd.yaml
 ```
+One can copy the components of the any of the folders within samples (any of the other apps) and adapt them to this new application, (argo-cd). 
