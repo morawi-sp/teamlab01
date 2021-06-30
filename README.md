@@ -48,3 +48,11 @@ One would find many components that would Bring in a wealth of material for lear
 
 By following this link, one would get a better idea of the argocd, its pointed out as a native tool for Kubernetes. Traditionally it jenkins was the defacto tool, later JenkinsX started to take the lead. That can still be added to this pipeline and there would be flexibility in changing the components around.
 https://argoproj.github.io/argo-cd/getting_started/
+
+By now you are hopefully familiar with the structure that the pipeline/istio is comprised of, to sustain that structure and the way it is organised and add argo-cd or any desired app in a similar way, follow the suggested steps below:
+```
+cd istio-1.10.2/samples/                  
+mkdir argo-cd
+wget https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+mv install.yaml install-argo-cd.yaml
+```
