@@ -42,6 +42,8 @@ Change directory to that folder ‘istio-1.10.2’
 
 One would find many components that would Bring in a wealth of material for learning and experimentations on ISTIO. The team or members can expand with that or adapt to the current environment as much as needed for the work stream.
 
+![istio components listed here](istio-components.png)
+
 ##### Pipeline part:
 
 By following this link, one would get a better idea of the argocd, its pointed out as a native tool for Kubernetes. Traditionally it jenkins was the defacto tool, later JenkinsX started to take the lead. That can still be added to this pipeline and there would be flexibility in changing the components around.
