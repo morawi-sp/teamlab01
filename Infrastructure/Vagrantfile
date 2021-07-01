@@ -1,0 +1,17 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "bento/ubuntu-20.04"
+  config.vm.define "2021-teamlab01"
+  config.vm.hostname = "2021-teamlab01.internal"
+  config.vm.network :private_network, ip: "192.168.0.41"
+  config.vm.provider :virtualbox do |vb|
+    vb.customize [
+      "modifyvm", :id,
+      "--cpuexecutioncap", "50",
+      "--memory", "8192",
+    ]
+  end
+  # Please adjust the workdir to own user && requirements/setup, boot strap used to prepair the vm
+  config.vm.synced_folder "/Users/morawi/Documents/Vagrant/istio-1.10.2", "/home/vagrant/"
+  config.vm.provision :shell, path: "bootstrap.sh"
+end
+end
