@@ -41,7 +41,7 @@ sudo minikube start --driver=kvm2 --memory=10384 --cpus=4 --kubernetes-version=v
 kubectl create deployment hello-minikube1 --image=k8s.gcr.io/echoserver:1.4
 kubectl expose deployment hello-minikube1 --type=LoadBalancer --port=8080
 
-# Once happy with the outcome of the above try now to install istio:
+# Copy istio components to the location from which they will be installed and the lab activity code would be based:
 
 cp istio-1.10.2.zip /home/vgrant/istio-1.10.2.zip
 
