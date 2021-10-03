@@ -1,6 +1,10 @@
 # This is simple system to create a test scenario, for validate Jenkins plugins. 
 The base of this system are the two containers based upon the two Jenkins containers. created by two bash scripts that are attached to this folder.
 
+To try and test individual plugins try to download the components individually with this link to a page that offer support in this field:
+
+http://lifuzu.com/blog/2014/04/24/playing-with-jenkins-create-job/
+
 
 File-Name:"Activate-Live-Jenkins-with-new-working-plugins.sh"
 ```
