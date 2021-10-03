@@ -6,6 +6,10 @@ To try and test individual plugins try to download the components individually w
 http://lifuzu.com/blog/2014/04/24/playing-with-jenkins-create-job/
 
 
+To cover the aspects of copying files and changing ownership of files whilst coying files to the container, visit this link:
+
+https://docs.docker.com/engine/reference/builder/
+
 File-Name:"Activate-Live-Jenkins-with-new-working-plugins.sh"
 ```
 #!/bin/bash
